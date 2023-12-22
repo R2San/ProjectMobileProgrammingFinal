@@ -8,24 +8,35 @@
     android:background="@color/green"
     tools:context=".HomePage">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_height = "60dp"
         android:layout_width = "match_parent"
+        android:orientation="horizontal"
         android:padding = "10dp"
         android:background="@color/darkGreen"
         >
 
         <TextView
             android:layout_height = "wrap_content"
-            android:layout_width = "match_parent"
+            android:layout_width = "wrap_content"
             android:text = "TuneTown"
+            android:id="@+id/tvTune"
             android:textSize="30sp"
             android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
             android:fontFamily="sans-serif-black"
-            android:textAlignment="center"
             />
 
-    </RelativeLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="180dp"
+            android:layout_gravity="right"
+            android:id="@+id/ivProfile"
+            android:src="@drawable/profile"
+            />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,7 +78,7 @@
     
     <View
         android:layout_width="380dp"
-        android:layout_height="1dp"
+        android:layout_height="2dp"
         android:background="@color/black"
         android:layout_gravity="center"
         />
