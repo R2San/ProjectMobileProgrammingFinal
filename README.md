@@ -4,8 +4,8 @@ This MP3 Music Player App allows users to play audio files stored on their Andro
 
 ## Features
 
-- Register Profile
-- Scan and display all the audio files on the device
-- Play/Pause, Next, and Previous controls
-- Seek functionality to jump to any point in the track
-- Display song title
+- Register Profile.
+- Scan and display all the audio files on the device.
+- Play/Pause, Next, Previous, fast forward control.
+- Seek functionality to jump to any point in the track.
+- Display song title.
